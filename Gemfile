@@ -1,11 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+# Edit this Gemfile to bundle your application's dependencies.
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+require 'rubygems'
+require 'mongo'
+source 'http://gemcutter.org'
 
-gem 'sqlite3'
+gem "rails", "3.0.0"
+gem "mongo_mapper"
 gem 'activeadmin'
 
 
